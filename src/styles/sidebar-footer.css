@@ -195,7 +195,7 @@ body{
 }
 
 .footer .footer-spotify .footer-spotify__button{
-    background-color: #b3b3b3;
+    background-color: #fff;
     width: 180px;
     border: 0;
     margin-right: 45px;
@@ -203,4 +203,8 @@ body{
     padding: 12px;
     font-weight: bold;
     font-size: 14px;
+}
+
+.footer .footer-spotify .footer-spotify__button:hover{
+    transform: translateY(-2px);
 }
